@@ -1,4 +1,4 @@
-# sticky-web-client
+# sicky-client
 
 ## Project setup
 ```

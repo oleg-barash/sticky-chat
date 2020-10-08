@@ -1,4 +1,4 @@
-namespace personal
+namespace stickyServer
 
 open System
 open System.Collections.Generic

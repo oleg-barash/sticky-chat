@@ -4,12 +4,20 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+  created () {
+    this.$socket.start({
+      log: true // Logging is optional but very helpful during development
+    })
+  },
+  sockets: {
+    broadcastMessage (message) {
+      console.log(message)
+    }
+  },
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>

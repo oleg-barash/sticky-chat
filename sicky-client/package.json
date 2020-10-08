@@ -1,5 +1,5 @@
 {
-  "name": "sticky-web-client",
+  "name": "sicky-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@aspnet/signalr": "^1.1.4",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },

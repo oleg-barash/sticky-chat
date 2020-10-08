@@ -1,4 +1,4 @@
-namespace personal
+namespace stickyServer
 
 open System
 open System.Collections.Generic
@@ -6,6 +6,7 @@ open System.Linq
 open System.Threading.Tasks
 open Microsoft.AspNetCore.Builder
 open Microsoft.AspNetCore.Hosting
+open Microsoft.AspNetCore.Http.Connections
 open Microsoft.AspNetCore.HttpsPolicy;
 open Microsoft.AspNetCore.Mvc
 open Microsoft.Extensions.Configuration
@@ -21,19 +22,30 @@ type Startup private () =
     member this.ConfigureServices(services: IServiceCollection) =
         // Add framework services.
         services.AddControllers() |> ignore
+        services.AddSignalR() |> ignore
+        services.AddCors() |> ignore
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     member this.Configure(app: IApplicationBuilder, env: IWebHostEnvironment) =
         if (env.IsDevelopment()) then
             app.UseDeveloperExceptionPage() |> ignore
 
-        app.UseHttpsRedirection() |> ignore
         app.UseRouting() |> ignore
 
         app.UseAuthorization() |> ignore
 
         app.UseEndpoints(fun endpoints ->
             endpoints.MapControllers() |> ignore
+            endpoints.MapHub<ChatHub>("/chathub",
+                                      fun options ->
+                                          options.Transports = (HttpTransportType.WebSockets ||| HttpTransportType.LongPolling) |> ignore
             ) |> ignore
+        ) |> ignore
+        
+        app.UseCors(fun (builder) ->
+                builder.WithOrigins("http://localhost:8080") |> ignore
+                builder.AllowAnyMethod() |> ignore
+                builder.AllowAnyHeader() |> ignore
+                builder.AllowCredentials() |> ignore) |> ignore
 
     member val Configuration : IConfiguration = null with get, set
