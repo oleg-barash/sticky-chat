@@ -1,5 +1,9 @@
 namespace stickyServer
 
-type UserMessage(name: string, text: string) =
-    member val Name = name with get,set
-    member val Text = text with get,set
+type UserMessage() =
+    new(name: string, text: string) as this =
+        UserMessage() then
+        this.Name <- name
+        this.Message <- text
+    member val Name = null with get,set
+    member val Message = null with get,set

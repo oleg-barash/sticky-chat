@@ -33,19 +33,19 @@ type Startup private () =
         app.UseRouting() |> ignore
 
         app.UseAuthorization() |> ignore
-
-        app.UseEndpoints(fun endpoints ->
-            endpoints.MapControllers() |> ignore
-            endpoints.MapHub<ChatHub>("/chathub",
-                                      fun options ->
-                                          options.Transports = (HttpTransportType.WebSockets ||| HttpTransportType.LongPolling) |> ignore
-            ) |> ignore
-        ) |> ignore
         
         app.UseCors(fun (builder) ->
                 builder.WithOrigins("http://localhost:8080") |> ignore
                 builder.AllowAnyMethod() |> ignore
                 builder.AllowAnyHeader() |> ignore
                 builder.AllowCredentials() |> ignore) |> ignore
+
+        app.UseEndpoints(fun endpoints ->
+            endpoints.MapControllers() |> ignore
+            endpoints.MapHub<ChatHub>("/chat-hub",
+                                      fun options ->
+                                          options.Transports = (HttpTransportType.WebSockets ||| HttpTransportType.LongPolling) |> ignore
+            ) |> ignore
+        ) |> ignore
 
     member val Configuration : IConfiguration = null with get, set

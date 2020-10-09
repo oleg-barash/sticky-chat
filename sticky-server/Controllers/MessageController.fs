@@ -6,9 +6,9 @@ open stickyServer
 
 [<ApiController>]
 [<Route("[controller]")>]
-type MessageController () =
+type MessageController private () =
     inherit ControllerBase()
-    new (logger : ILogger<MessageController>, hubContext: IHubContext<ChatHub> ) as this =
+    new (logger : ILogger<MessageController>, hubContext: IHubContext<ChatHub>) as this =
         MessageController() then
         this.Logger <- logger
         this.HubContext <- hubContext
@@ -17,5 +17,4 @@ type MessageController () =
     member val Logger : ILogger<MessageController> = null with get, set
     [<HttpPost>]
     member __.Post(message: UserMessage) =
-        "fds"
-        // HubContext.Clients.All.SendAsync("broadcastMessage", message.Name, message.Text)
+        __.HubContext.Clients.All.SendAsync("addMessage", message)

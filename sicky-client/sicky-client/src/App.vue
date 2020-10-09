@@ -1,23 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+  </div>
 </template>
 
 <script>
 
 export default {
-  created () {
-    this.$socket.start({
-      log: true // Logging is optional but very helpful during development
-    })
-  },
-  sockets: {
-    broadcastMessage (message) {
-      console.log(message)
-    }
-  },
   name: 'App',
   components: {
+
   }
 }
 </script>
