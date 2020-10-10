@@ -28,7 +28,6 @@ type UserController (logger : ILogger<UserController>, hub: ChatHub) =
     member __.Login(username: string): TokenModel =
         let now = Nullable<DateTime>(DateTime.UtcNow)
         let identity = __.GetIdentity(username)
-        // создаем JWT-токен
         let jwt = JwtSecurityToken(
                     AuthOptions.ISSUER,
                     AuthOptions.AUDIENCE,

@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Include="AuthOptions.fs" />
     <Compile Include="UserMessage.fs" />
+    <Compile Include="Storage.fs" />
     <Compile Include="ChatHub.fs" />
     <Compile Include="Controllers\MessageController.fs" />
     <Compile Include="Controllers\UserController.fs" />
