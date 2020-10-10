@@ -16,12 +16,17 @@ module Program =
 
     let CreateHostBuilder args =
         Host.CreateDefaultBuilder(args)
+            .ConfigureLogging(fun logging ->
+                logging.ClearProviders() |> ignore
+                logging.AddConsole() |> ignore
+            )
             .ConfigureWebHostDefaults(fun webBuilder ->
                 webBuilder.UseStartup<Startup>() |> ignore
             )
 
     [<EntryPoint>]
     let main args =
-        CreateHostBuilder(args).Build().Run()
+        CreateHostBuilder(args)
+            .Build().Run()
 
         exitCode

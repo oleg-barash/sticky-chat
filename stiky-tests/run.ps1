@@ -1,0 +1,1 @@
+docker run -it --rm --net=host -v C:\sources\personal\sticky-chat\stiky-tests\k6:/k6 loadimpact/k6 run /k6/script.js

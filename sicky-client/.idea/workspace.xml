@@ -20,20 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25da6380-5062-4008-8972-e7583ea8d936" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sticky-server/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sticky-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chat-hub.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/sicky-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sicky-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/sicky-client/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sticky-server/ChatHub.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/ChatHub.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sticky-server/Controllers/MessageController.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Controllers/MessageController.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sticky-server/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Program.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sticky-server/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sticky-server/Startup.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Startup.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sticky-server/UserMessage.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/UserMessage.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sticky-server/sticky-server.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/sticky-server.fsproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +53,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -100,11 +103,76 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602250869358">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602250869358" />
+    <state width="1256" height="488" key="GridCell.Tab.0.bottom" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.0.center" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.0.left" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.0.right" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.1.bottom" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.1.center" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.1.left" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.1.right" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.2.bottom" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.2.center" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.2.left" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.2.right" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.3.bottom" timestamp="1602335550521">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.3.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550521" />
+    <state width="1256" height="488" key="GridCell.Tab.3.center" timestamp="1602335550521">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.3.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550521" />
+    <state width="1256" height="488" key="GridCell.Tab.3.left" timestamp="1602335550520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.3.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
+    <state width="1256" height="488" key="GridCell.Tab.3.right" timestamp="1602335550521">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550521" />
   </component>
 </project>
