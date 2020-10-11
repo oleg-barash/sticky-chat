@@ -1,15 +1,15 @@
 ﻿namespace stickyServer.Controllers
 open System
-open Microsoft.AspNetCore.Authorization
 open Microsoft.AspNetCore.Http
 open Microsoft.AspNetCore.Mvc
 open Microsoft.AspNetCore.SignalR
 open Microsoft.Extensions.Logging
 open stickyServer
 open System.Linq
-
+open stickyServer.AuthorizeAttribute
 [<ApiController>]
 [<Route("[controller]")>]
+[<Authorize>]
 type MessageController (logger : ILogger<MessageController>, hub: IHubContext<ChatHub>, httpContextAccessor: IHttpContextAccessor) =
     inherit ControllerBase()
     member val Hub : IHubContext<ChatHub> = hub
@@ -19,7 +19,7 @@ type MessageController (logger : ILogger<MessageController>, hub: IHubContext<Ch
     [<HttpPost>]
     [<Authorize>]
     member __.Post(message: string) =
-        let userMessage = UserMessage(__.HttpContextAccessor.HttpContext.User.Identity.Name, message)
+        let userMessage = UserMessage(string __.HttpContextAccessor.HttpContext.Items.["UserName"], message)
         Storage.Messages <- Storage.Messages.Append(userMessage)
         match __.Hub.Clients with
         | null -> ()
@@ -33,6 +33,6 @@ type MessageController (logger : ILogger<MessageController>, hub: IHubContext<Ch
         match Seq.length Storage.Messages with
         | 0 -> Seq.empty
         | _ -> match limit.HasValue with
-                | false -> Storage.Messages |> Seq.take 500
-                | true -> Storage.Messages |> Seq.take limit.Value
+                | false -> Storage.Messages |> Seq.skip ((Seq.length Storage.Messages) - 500) 
+                | true -> Storage.Messages |> Seq.skip ((Seq.length Storage.Messages) - limit.Value)
         

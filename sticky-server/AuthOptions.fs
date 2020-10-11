@@ -4,10 +4,10 @@ open System.Text
 open Microsoft.IdentityModel.Tokens
 
 type AuthOptions() = 
-    static let issuerField = "Server" // издатель токена
+    static let issuerField: string = "Server" // издатель токена
     static let audienceField: string = "Client" // потребитель токена
-    static let keyField = "mysupersecret_123_secret"   // ключ для шифрации
-    static let lifetimeField = 60.0 // время жизни токена
+    static let keyField: string = "gFZpR_<[DuH(fQjfL<VRBHuT,xa:8w4xVr%bf^ExAh52fC)C"   // ключ для шифрации
+    static let lifetimeField: float = 60.0 // время жизни токена
     static member ISSUER with get() = issuerField
     static member AUDIENCE with get() = audienceField
     static member KEY with get() = keyField

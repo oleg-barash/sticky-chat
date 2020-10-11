@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="AuthorizeAttribute.fs" />
     <Compile Include="AuthOptions.fs" />
     <Compile Include="UserMessage.fs" />
     <Compile Include="Storage.fs" />
+    <Compile Include="JwtMiddlware.fs" />
     <Compile Include="ChatHub.fs" />
     <Compile Include="Controllers\MessageController.fs" />
     <Compile Include="Controllers\UserController.fs" />
@@ -17,6 +19,7 @@
     <Compile Include="Program.fs" />
     <Content Include="Dockerfile" />
     <Content Include=".dockerignore" />
+    <Folder Include="Helpers" />
   </ItemGroup>
 
   <ItemGroup>
