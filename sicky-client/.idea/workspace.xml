@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="25da6380-5062-4008-8972-e7583ea8d936" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../sticky-server/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sticky-server/Dockerfile" afterDir="false" />
+    <list default="true" id="e5838c0a-1788-4191-b174-aa82f5b37a17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/sicky-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sicky-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/sicky-client/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/src/components/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/src/components/Room.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sicky-client/src/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sticky-server/ChatHub.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/ChatHub.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sticky-server/Controllers/MessageController.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Controllers/MessageController.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sticky-server/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Program.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sticky-server/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sticky-server/Startup.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Startup.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sticky-server/UserMessage.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/UserMessage.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sticky-server/sticky-server.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/sticky-server.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stiky-tests/k6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stiky-tests/k6/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1idw2LIV8aXFZN5MvJxNCfi7YDl" />
+  <component name="ProjectId" id="1imBCNkhU71R8T4rSYHBxcOacJU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,9 +53,24 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sources\personal\sticky-chat\sicky-client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/sicky-client/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="serve" />
@@ -75,104 +82,96 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25da6380-5062-4008-8972-e7583ea8d936" name="Default Changelist" comment="" />
-      <created>1602250569546</created>
+      <changelist id="e5838c0a-1788-4191-b174-aa82f5b37a17" name="Default Changelist" comment="" />
+      <created>1602502758895</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602250569546</updated>
-      <workItem from="1602250570922" duration="1074000" />
+      <updated>1602502758895</updated>
+      <workItem from="1602502759923" duration="1953000" />
+      <workItem from="1602530083875" duration="7982000" />
+      <workItem from="1602592353425" duration="6856000" />
+      <workItem from="1602680096312" duration="3807000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602250869358">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602250869358" />
-    <state width="1256" height="488" key="GridCell.Tab.0.bottom" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.0.bottom" timestamp="1602686132506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.0.center" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132506" />
+    <state width="1256" height="404" key="GridCell.Tab.0.center" timestamp="1602686132506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.0.left" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132506" />
+    <state width="1256" height="404" key="GridCell.Tab.0.left" timestamp="1602686132506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.0.right" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132506" />
+    <state width="1256" height="404" key="GridCell.Tab.0.right" timestamp="1602686132506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.1.bottom" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132506" />
+    <state width="1256" height="404" key="GridCell.Tab.1.bottom" timestamp="1602686132506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.1.center" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132506" />
+    <state width="1256" height="404" key="GridCell.Tab.1.center" timestamp="1602686132506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.1.left" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132506" />
+    <state width="1256" height="404" key="GridCell.Tab.1.left" timestamp="1602686132506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.1.right" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132506" />
+    <state width="1256" height="404" key="GridCell.Tab.1.right" timestamp="1602686132506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.2.bottom" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132506" />
+    <state width="1256" height="404" key="GridCell.Tab.2.bottom" timestamp="1602686132508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.2.center" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132508" />
+    <state width="1256" height="404" key="GridCell.Tab.2.center" timestamp="1602686132507">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.2.left" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132507" />
+    <state width="1256" height="404" key="GridCell.Tab.2.left" timestamp="1602686132507">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.2.right" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132507" />
+    <state width="1256" height="404" key="GridCell.Tab.2.right" timestamp="1602686132508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.3.bottom" timestamp="1602335550521">
+    <state width="1256" height="404" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132508" />
+    <state width="1256" height="404" key="GridCell.Tab.3.bottom" timestamp="1602686132508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.3.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550521" />
-    <state width="1256" height="488" key="GridCell.Tab.3.center" timestamp="1602335550521">
+    <state width="1256" height="404" key="GridCell.Tab.3.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132508" />
+    <state width="1256" height="404" key="GridCell.Tab.3.center" timestamp="1602686132508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.3.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550521" />
-    <state width="1256" height="488" key="GridCell.Tab.3.left" timestamp="1602335550520">
+    <state width="1256" height="404" key="GridCell.Tab.3.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132508" />
+    <state width="1256" height="404" key="GridCell.Tab.3.left" timestamp="1602686132508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.3.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550520" />
-    <state width="1256" height="488" key="GridCell.Tab.3.right" timestamp="1602335550521">
+    <state width="1256" height="404" key="GridCell.Tab.3.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132508" />
+    <state width="1256" height="404" key="GridCell.Tab.3.right" timestamp="1602686132508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1256" height="488" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602335550521" />
+    <state width="1256" height="404" key="GridCell.Tab.3.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602686132508" />
+    <state x="650" y="447" width="585" height="534" key="find.popup" timestamp="1602682684596">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="650" y="447" width="585" height="534" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602682684596" />
   </component>
 </project>

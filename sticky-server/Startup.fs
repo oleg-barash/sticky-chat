@@ -32,6 +32,7 @@ type Startup private () =
         IdentityModelEventSource.ShowPII <- true
         services.AddSignalR() |> ignore
         services.AddCors() |> ignore
+        services.AddAuthorization() |> ignore
         services.AddHttpContextAccessor() |> ignore
         services.AddSwaggerGen(fun swaggerGenOptions ->
             let swaggerGenOptions1 = swaggerGenOptions

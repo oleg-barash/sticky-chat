@@ -9,7 +9,6 @@ open System.Linq
 open stickyServer.AuthorizeAttribute
 [<ApiController>]
 [<Route("[controller]")>]
-[<Authorize>]
 type MessageController (logger : ILogger<MessageController>, hub: IHubContext<ChatHub>, httpContextAccessor: IHttpContextAccessor) =
     inherit ControllerBase()
     member val Hub : IHubContext<ChatHub> = hub
