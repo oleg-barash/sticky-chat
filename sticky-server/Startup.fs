@@ -69,7 +69,7 @@ type Startup private () =
         app.UseRouting() |> ignore
         app.UseMiddleware<JwtMiddleware>() |> ignore
         app.UseCors(fun (builder) ->
-                builder.WithOrigins("http://localhost:8080") |> ignore
+                builder.WithOrigins("http://localhost:8080", "http://35.184.35.166") |> ignore
                 builder.AllowAnyMethod() |> ignore
                 builder.AllowAnyHeader() |> ignore
                 builder.AllowCredentials() |> ignore) |> ignore

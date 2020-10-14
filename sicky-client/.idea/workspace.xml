@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5838c0a-1788-4191-b174-aa82f5b37a17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/src/components/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/src/components/Room.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sicky-client/src/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sticky-server/ChatHub.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/ChatHub.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sticky-server/Controllers/MessageController.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Controllers/MessageController.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sticky-server/Startup.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../sticky-server/Startup.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stiky-tests/k6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../stiky-tests/k6/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="e5838c0a-1788-4191-b174-aa82f5b37a17" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +73,7 @@
       <workItem from="1602502759923" duration="1953000" />
       <workItem from="1602530083875" duration="7982000" />
       <workItem from="1602592353425" duration="6856000" />
-      <workItem from="1602680096312" duration="3807000" />
+      <workItem from="1602680096312" duration="4216000" />
     </task>
     <servers />
   </component>
