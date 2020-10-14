@@ -12,6 +12,7 @@
     "ant-design-vue": "^1.6.5",
     "axios": "^0.20.0",
     "core-js": "^3.6.5",
+    "date-fns": "^2.16.1",
     "url-join": "^4.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.4.6",

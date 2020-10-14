@@ -1,12 +1,9 @@
 <template>
   <div>
-    <div
-        class="infinite-container"
-        :infinite-scroll-distance="10"
-    >
-      <a-list :data-source="this.$store.state.messages">
+    <div>
+      <a-list class="list-container" :data-source="this.$store.state.messages">
         <a-list-item slot="renderItem" slot-scope="item">
-          <a-list-item-meta :description="item.time"/>
+          <a-list-item-meta :description="format(parseISO(item.time), 'hh:mm:ss')"/>
           <b>{{ item.name }}:</b> {{ item.message }}
         </a-list-item>
       </a-list>
@@ -19,10 +16,11 @@
 <script>
 import axios from "axios";
 import urljoin from "url-join";
-
+import { format, parseISO } from 'date-fns';
 export default {
   name: 'Home',
-  data() {  return { message: ""}},
+  data() {  return { message: "", format, parseISO }
+  },
   mounted() {
     let me  = this;
     axios.get(urljoin(window.apiUrl, 'message'))
@@ -47,17 +45,9 @@ export default {
 </script>
 
 <style>
-.infinite-container {
-  border: 1px solid #e8e8e8;
-  border-radius: 4px;
-  overflow: auto;
-  padding: 8px 24px;
-  height: 300px;
-}
-.loading-container {
-  position: absolute;
+div.list-container {
   bottom: 40px;
   width: 100%;
-  text-align: center;
+  padding: 0 2em;
 }
 </style>
